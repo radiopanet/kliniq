@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kliniqQ.Api", "kliniqQ.Api\kliniqQ.Api.csproj", "{22588A7C-C2A3-42FA-BF58-0A496E4A7DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kliniqQ.Application", "kliniqQ.Application\kliniqQ.Application.csproj", "{2AD4EB23-0665-4F19-B399-2EE4C0C54E37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kliniqQ.Domain", "kliniqQ.Domain\kliniqQ.Domain.csproj", "{DB78949F-11F9-4266-8BC8-C9D6C05EC522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kliniqQ.Infrastructure", "kliniqQ.Infrastructure\kliniqQ.Infrastructure.csproj", "{BB3DC8AA-0488-4820-A647-9AD548CB0BDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22588A7C-C2A3-42FA-BF58-0A496E4A7DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22588A7C-C2A3-42FA-BF58-0A496E4A7DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22588A7C-C2A3-42FA-BF58-0A496E4A7DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22588A7C-C2A3-42FA-BF58-0A496E4A7DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD4EB23-0665-4F19-B399-2EE4C0C54E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD4EB23-0665-4F19-B399-2EE4C0C54E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD4EB23-0665-4F19-B399-2EE4C0C54E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD4EB23-0665-4F19-B399-2EE4C0C54E37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB78949F-11F9-4266-8BC8-C9D6C05EC522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB78949F-11F9-4266-8BC8-C9D6C05EC522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB78949F-11F9-4266-8BC8-C9D6C05EC522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB78949F-11F9-4266-8BC8-C9D6C05EC522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB3DC8AA-0488-4820-A647-9AD548CB0BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB3DC8AA-0488-4820-A647-9AD548CB0BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB3DC8AA-0488-4820-A647-9AD548CB0BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB3DC8AA-0488-4820-A647-9AD548CB0BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qwXhLR+ZPXM=",
+  "success": true,
+  "projectFilePath": "/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/kliniqQ.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/tx/.nuget/packages/microsoft.aspnetcore.openapi/9.0.11/microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "/home/tx/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
