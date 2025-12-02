@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using kliniqQ.Domain.Entities;
 
-namespace kliniqQ.Infrastructure.Persistence.Configuration;
+namespace kliniqQ.Infrastructure.Persistence.Configurations;
 
 public class StationConfiguration: IEntityTypeConfiguration<Station>
 {
