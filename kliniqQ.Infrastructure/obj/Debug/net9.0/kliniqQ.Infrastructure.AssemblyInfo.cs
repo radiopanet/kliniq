@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kliniqQ.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+826c5b0cc57c75a60975407344584d64eb24a812")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+874a78a7f0016e01e1cd8de9483ef3cc5b6b9a78")]
 [assembly: System.Reflection.AssemblyProductAttribute("kliniqQ.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kliniqQ.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
