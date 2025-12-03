@@ -1,0 +1,12 @@
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/bin/Debug/net9.0/kliniqQ.Domain.deps.json
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/bin/Debug/net9.0/kliniqQ.Domain.dll
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/bin/Debug/net9.0/kliniqQ.Domain.pdb
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/kliniqQ.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/kliniqQ.Domain.AssemblyInfoInputs.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/kliniqQ.Domain.AssemblyInfo.cs
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/kliniqQ.Domain.csproj.CoreCompileInputs.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/kliniqQ.Domain.sourcelink.json
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/kliniqQ.Domain.dll
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/refint/kliniqQ.Domain.dll
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/kliniqQ.Domain.pdb
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Domain/obj/Debug/net9.0/ref/kliniqQ.Domain.dll

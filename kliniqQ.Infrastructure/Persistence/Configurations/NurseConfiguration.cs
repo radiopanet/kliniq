@@ -35,7 +35,7 @@ public class NurseConfiguration: IEntityTypeConfiguration<Nurse>
 
         builder.Property(n => n.CreatedAt)
             .HasColumnName("created_at")
-            .HasDefaultValueSql("now()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(n => n.CurrentStationId)
             .HasColumnName("current_station_id");

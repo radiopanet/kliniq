@@ -1,0 +1,16 @@
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/bin/Debug/net9.0/kliniqQ.Application.deps.json
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/bin/Debug/net9.0/kliniqQ.Application.dll
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/bin/Debug/net9.0/kliniqQ.Application.pdb
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/bin/Debug/net9.0/kliniqQ.Domain.dll
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/bin/Debug/net9.0/kliniqQ.Domain.pdb
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.csproj.AssemblyReference.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.AssemblyInfoInputs.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.AssemblyInfo.cs
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.csproj.CoreCompileInputs.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.sourcelink.json
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ..8C83A71E.Up2Date
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.dll
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/refint/kliniqQ.Application.dll
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/kliniqQ.Application.pdb
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Application/obj/Debug/net9.0/ref/kliniqQ.Application.dll

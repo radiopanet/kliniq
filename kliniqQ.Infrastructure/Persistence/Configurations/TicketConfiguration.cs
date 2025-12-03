@@ -22,7 +22,7 @@ public class TicketConfiguration: IEntityTypeConfiguration<Ticket>
 
                 builder.Property(t => t.IssuedAt)
             .HasColumnName("issued_at")
-            .HasDefaultValueSql("now()");
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");
 
         builder.Property(t => t.CalledAt)
             .HasColumnName("called_at");

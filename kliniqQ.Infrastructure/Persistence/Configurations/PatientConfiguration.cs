@@ -39,6 +39,6 @@ public class PatientConfiguration: IEntityTypeConfiguration<Patient>
 
         builder.Property(p => p.CreatedAt)
             .HasColumnName("created_at")
-            .HasDefaultValueSql("now()");                     
+            .HasDefaultValueSql("CURRENT_TIMESTAMP");                     
     }
 }

@@ -1,0 +1,8 @@
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.csproj.AssemblyReference.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.GeneratedMSBuildEditorConfig.editorconfig
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.AssemblyInfoInputs.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.AssemblyInfo.cs
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.csproj.CoreCompileInputs.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.MvcApplicationPartsAssemblyInfo.cs
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.MvcApplicationPartsAssemblyInfo.cache
+/home/tx/Projects/DotNet/kliniq-Q/kliniqQ.Api/obj/Debug/net9.0/kliniqQ.Api.sourcelink.json
