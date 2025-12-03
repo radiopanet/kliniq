@@ -6,21 +6,23 @@ namespace kliniqQ.Infrastructure.Persistence.Configurations;
 
 public class PatientConfiguration: IEntityTypeConfiguration<Patient>
 {
-    public void Configure(EntityBuilder<Patient> builder)
+    public void Configure(EntityTypeBuilder<Patient> builder)
     {
         builder.ToTable("patient");
 
         builder.HasKey(p => p.Id);
 
-        bulder.Property(p => p.Id)
+        builder.Property(p => p.Id)
             .HasColumnName("patient_id");
 
-        builder.Property(p =>p.NationalId)
+        builder.Property(p => p.NationalId)
             .HasColumnName("national_id")
             .HasMaxLength(13);
 
         builder.HasIndex(p => p.NationalId)
             .IsUnique();
+        builder.Property(p => p.DateOfBirth)
+            .HasColumnName("date_of_birth");
 
         builder.Property(p => p.FullName)
             .HasColumnName("full_name")

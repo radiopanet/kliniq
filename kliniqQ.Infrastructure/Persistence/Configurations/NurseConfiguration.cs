@@ -4,9 +4,9 @@ using kliniqQ.Domain.Entities;
 
 namespace kliniqQ.Infrastructure.Persistence.Configurations;
 
-public class NurseConfigurations: IEntityTypeConfiguration<Nurse>
+public class NurseConfiguration: IEntityTypeConfiguration<Nurse>
 {
-    public void Configure(EntityTypeConfiguration<Nurse> builder)
+    public void Configure(EntityTypeBuilder<Nurse> builder)
     {
         builder.ToTable("nurse");
 
@@ -27,22 +27,25 @@ public class NurseConfigurations: IEntityTypeConfiguration<Nurse>
 
         builder.Property(n => n.EmployeeNumber)
             .HasColumnName("employee_number")
-            .IsUnique();
+            .IsRequired();
 
         builder.Property(n => n.IsActive)
             .HasColumnName("is_active")
             .HasDefaultValue(true);
 
-        builder.Property(n => .CreatedAt)
+        builder.Property(n => n.CreatedAt)
             .HasColumnName("created_at")
             .HasDefaultValueSql("now()");
 
         builder.Property(n => n.CurrentStationId)
             .HasColumnName("current_station_id");
 
-        builder.HasOne(n => n.CurrentStationId)
-            .WithMany()
-            .HasForeignKey(n => CurrentStationId);
+        
+        builder.HasOne(n => n.CurrentStation)
+                .WithMany()
+                .HasForeignKey(n => n.CurrentStationId)
+                .OnDelete(DeleteBehavior.Restrict);
+             
 
     }
 }

@@ -8,7 +8,7 @@ public class TicketConfiguration: IEntityTypeConfiguration<Ticket>
 {
     public void Configure(EntityTypeBuilder<Ticket> builder)
     {
-        builder.ToTable("builder");
+        builder.ToTable("ticket");
 
         builder.HasKey(t => t.Id);
 
@@ -40,7 +40,7 @@ public class TicketConfiguration: IEntityTypeConfiguration<Ticket>
         builder.Property(t => t.Status)
             .HasColumnName("status")
             .HasMaxLength(20)
-            .HasDefaultValue("waiting");
+            .HasConversion<string>();
 
         builder.HasIndex(t => new { t.PatientId, t.IssuedDate })
             .IsUnique();
@@ -54,11 +54,11 @@ public class TicketConfiguration: IEntityTypeConfiguration<Ticket>
             .IsRequired();
 
         builder.HasOne(t => t.Station)
-            .WithMany(s => s.Tickets)
+            .WithMany()
             .HasForeignKey(t => t.StationId);
 
         builder.HasOne(t => t.AssignedNurse)
-            .WithMany(n => n.Tickets)
+            .WithMany()
             .HasForeignKey(t => t.AssignedNurseId);
 
         builder.ToTable(tb => tb.HasCheckConstraint(

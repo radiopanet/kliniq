@@ -20,7 +20,7 @@ public class StationConfiguration: IEntityTypeConfiguration<Station>
             .HasMaxLength(255)
             .IsRequired();
 
-        builder.Property.(s => s.IsActive)
+        builder.Property(s => s.IsActive)
             .HasColumnName("is_active")
             .HasDefaultValue(true); 
           
